@@ -2,12 +2,12 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 3,
+    "passes": 5,
     "pending": 0,
-    "failures": 2,
-    "start": "2024-01-31T15:49:48.038Z",
-    "end": "2024-01-31T15:49:48.147Z",
-    "duration": 109
+    "failures": 0,
+    "start": "2024-02-05T03:36:09.766Z",
+    "end": "2024-02-05T03:36:09.905Z",
+    "duration": 139
   },
   "tests": [
     {
@@ -15,24 +15,14 @@
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'bob'",
-        "showDiff": true,
-        "expected": "bob",
-        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:6:38)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'bob'",
-        "showDiff": true,
-        "expected": "bob",
-        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:12:38)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "setBestCustomer",
@@ -57,33 +47,22 @@
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'bob'",
-        "showDiff": true,
-        "expected": "bob",
-        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:6:38)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'bob'",
-        "showDiff": true,
-        "expected": "bob",
-        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:12:38)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
-  "passes": [
+      "err": {}
+    },
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",

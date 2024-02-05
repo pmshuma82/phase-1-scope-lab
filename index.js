@@ -1,23 +1,31 @@
-let customerName = 'bob';
+var customerName = 'bob';
 
-function upperCaseCustomerName(customerName) {
+function upperCaseCustomerName() {
   customerName = customerName.toUpperCase();
-  returns(customerName)
 }
 
 function setBestCustomer() {
   bestCustomer = 'not bob';
 }
 
-function overwriteBestCustomer(newBestCustomer) {
-  bestCustomer = newBestCustomer;
+function overwriteBestCustomer(value) {
+  bestCustomer = value;
 }
 
+const leastFavoriteCustomer = 'someone';
+
 function changeLeastFavoriteCustomer() {
-    const leastFavoriteCustomer = 'someone';
-    leastFavoriteCustomer = 'new person';
-  
+  leastFavoriteCustomer = 'new person';
 }
+
+module.exports = {
+  customerName,
+  upperCaseCustomerName,
+  setBestCustomer,
+  overwriteBestCustomer,
+  leastFavoriteCustomer,
+  changeLeastFavoriteCustomer,
+};
 
 
 
